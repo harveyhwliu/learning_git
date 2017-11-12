@@ -1,0 +1,6 @@
+[core]
+	editor = 'D:/InstallSoftWare/Sublime Text 3/sublime_text.exe' -n -w
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
