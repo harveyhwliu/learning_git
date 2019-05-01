@@ -39,18 +39,20 @@
  |  git remote -v     |查看远程代码库详细信息 | 
 
 
-（git 初始化）
-git clone （拷贝远程仓库）
-git add （git 添加）
-git reset [文件]  (将add的文件从暂存区删除，工作目录仍然存在)
-git commit -m "Commit message"  （提交git add的结果到repository）
-git commit -a -m "Commit message"  (提交repository）
+git log -n  1  
 
-git log -n  1
-git status （git 状态）
-staging area （暂存区）--- git add 的结果
-working directory （工作目录）
-repository	（仓库） --- git commit 的结果
-git diff ID1 ID2
-git checkout ID2
-git log --graph --oneline master 分支名  直观地查看提交历史记录
+git status （git 状态）  
+
+staging area （暂存区）--- git add 的结果  
+
+working directory （工作目录）  
+
+repository	（仓库） --- git commit 的结果  
+
+
+git diff ID1 ID2  
+
+git checkout ID2  
+
+git log --graph --oneline master 分支名  直观地查看提交历史记录  
+
