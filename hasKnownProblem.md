@@ -17,3 +17,15 @@ web-proxy.tencent.com:8080
 #业务再次访问，正常
 
 ```
+
+## 2. git 删除远程仓库中的内容
+&emsp;&emsp;在github上只能删除仓库,却无法删除文件夹或文件, 所以只能通过命令来解决
+```git
+git pull origin master
+git rm 002配置解析模块_toml笔记.md
+git rm -rf 002类型/
+git add *
+git commit -m "update golang repository"
+git push -u origin master
+
+```
