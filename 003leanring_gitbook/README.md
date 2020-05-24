@@ -2,4 +2,4 @@
 学习gitbook技术,可以用于写一本书 
 
 ## 基础知识
-<>(!../pic/gitbook.png)
+![gitbook基础](!../pic/gitbook.png)
