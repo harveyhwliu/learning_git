@@ -23,7 +23,7 @@ web-proxy.tencent.com:8080
 ```git
 git pull origin master
 git rm 002配置解析模块_toml笔记.md
-git rm -rf 002类型/
+git rm -rf 002类型/   /*-r表示递归，通常使用git rm -r --cached name*/
 git add *
 git commit -m "update golang repository"
 git push -u origin master
