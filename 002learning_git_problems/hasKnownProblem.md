@@ -29,3 +29,9 @@ git commit -m "update golang repository"
 git push -u origin master
 
 ```
+## 3. git commit 提示Changes not staged for commit 导致git push -u origin master --force 强制推远程仓库失败
+&emsp;&emsp;在github上只能删除仓库,却无法删除文件夹或文件, 所以只能通过命令来解决
+```git
+这个问题是git add 的目录错误导致，不要使用git add ./* 而要使用Git add . 既可以解决
+
+```
